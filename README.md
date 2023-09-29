@@ -1,9 +1,9 @@
 <h1 align="center">
-    Terraform AWS Módulo Grupo de Segurança 
+    Módulo Terraform AWS Grupo de Segurança 
 </h1>
 
 <p align="center" style="font-size: 1.2rem;"> 
-    Esse módulo terraform cria os recursos Security Group and Security Group Rules em várias combinações.
+    Esse módulo terraform cria os recursos de Grupo de Segurança and Regras de Grupo de Segurança em várias combinações.
      </p>
 
 <p align="center">
