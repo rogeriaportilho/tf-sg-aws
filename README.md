@@ -11,9 +11,9 @@
 
 ## Exemplos
 
-Aqui estão alguns exemplos de como você pode usar este módulo em sua estrutura:
+Alguns exemplos de como você pode usar este módulo em sua estrutura:
 ### Básico
-Aqui está um exemplo de como você pode usar este módulo em sua estrutura:
+Exemplo de como você pode usar este módulo em sua estrutura:
   ```hcl
     module "security_group" {
       source          = "git@github.com/terraform-modules//security-group/"
