@@ -1,5 +1,3 @@
-<p align="center"> <img src="https://user-images.githubusercontent.com/50652676/62349836-882fef80-b51e-11e9-99e3-7b974309c7e3.png" width="100" height="100"></p>
-
 <h1 align="center">
     Terraform AWS Módulo Grupo de Segurança 
 </h1>
@@ -9,12 +7,6 @@
      </p>
 
 <p align="center">
-
-
-## Pré-requisitos:
-
-Esse módulo tem algumas dependências 
-- [Terraform 1.0.7](https://learn.hashicorp.com/terraform/getting-started/install.html)
 
 
 ## Exemplos
@@ -185,7 +177,7 @@ Aqui está um exemplo de como você pode usar este módulo em sua estrutura:
     }
   ```
 
-    ### PREFIX LIST
+  ### PREFIX LIST
   ```hcl
     module "security_group" {
       source              = "git@github.com/terraform-modules//security-group/"
@@ -219,7 +211,7 @@ Aqui está um exemplo de como você pode usar este módulo em sua estrutura:
   ```
 
 
-## Entradas
+## Entradas (Inputs)
 
 | Nome | Descrição | Tipo | Padrão | Obrigatório |
 |------|-------------|------|---------|:--------:|
@@ -253,7 +245,7 @@ Aqui está um exemplo de como você pode usar este módulo em sua estrutura:
 | sg\_description | Descrição do grupo de segurança. O padrão é Gerenciado pelo Terraform. Não pode ser uma string vazia. NOTA: Este campo é mapeado para o atributo AWS GroupDescription, para o qual não há API de atualização. Se quiser classificar seus grupos de segurança de uma forma que possa ser atualizada, use tags. | `string` | `null` | no |
 | vpc\_id | O ID da VPC ao qual o grupo de segurança da instância pertence. | `string` | `""` | no |
 
-## Saídas
+## Saídas (Outputs)
 
 | Nome | Descrição |
 |------|-------------|
