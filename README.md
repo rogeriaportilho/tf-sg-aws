@@ -1,5 +1,5 @@
 <h1 align="center">
-    Módulo Terraform AWS Grupo de Segurança 
+    Módulo Terraform Grupo de Segurança AWS
 </h1>
 
 <p align="center" style="font-size: 1.2rem;"> 
@@ -11,7 +11,7 @@
 
 ## Exemplos
 
-Alguns exemplos de como usar este módulo para criar recursos que usam grupo de segurança:
+Alguns exemplos de como usar este módulo para criar os recursos:
 
 ### Básico
   ```hcl
