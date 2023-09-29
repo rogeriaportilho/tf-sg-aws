@@ -11,9 +11,9 @@
 
 ## Exemplos
 
-Alguns exemplos de como você pode usar este módulo em sua estrutura:
+Alguns exemplos de como usar este módulo para criar recursos que usam grupo de segurança:
+
 ### Básico
-Exemplo de como você pode usar este módulo em sua estrutura:
   ```hcl
     module "security_group" {
       source          = "git@github.com/terraform-modules//security-group/"
